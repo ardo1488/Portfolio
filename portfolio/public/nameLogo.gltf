@@ -1,0 +1,225 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v4.0.44",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Text",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1.2600107192993164,
+        1.2600107192993164,
+        1.2600107192993164
+      ],
+      "translation": [
+        -0.23246820271015167,
+        0.005224520340561867,
+        0
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "Text.001",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1.300421118736267,
+        1.300421118736267,
+        1.300421118736267
+      ],
+      "translation": [
+        -0.248712956905365,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "outerColor",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.018391821533441544,
+          0.8006867170333862,
+          0.026656094938516617,
+          1
+        ],
+        "metallicFactor": 0.5877862572669983,
+        "roughnessFactor": 0.4656488597393036
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "innerColor",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "roughnessFactor": 0.209923654794693
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Text",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Text.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5126,
+      "count": 64878,
+      "max": [
+        7.15364408493042,
+        0.11999998986721039,
+        0.030559897422790527
+      ],
+      "min": [
+        0.0475105457007885,
+        -0.11999998986721039,
+        -0.6491220593452454
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 64878,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 64878,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5123,
+      "count": 332040,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 64924,
+      "max": [
+        6.953652381896973,
+        0.10999999940395355,
+        0.040565572679042816
+      ],
+      "min": [
+        0.03751055523753166,
+        -0.10999999940395355,
+        -0.6591261029243469
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 64924,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 64924,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5123,
+      "count": 332160,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 218208,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 220856,
+      "byteOffset": 218208
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "nameLogo_data.bin",
+      "byteLength": 439064
+    }
+  ]
+}

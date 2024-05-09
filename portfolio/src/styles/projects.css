@@ -1,0 +1,6 @@
+.projects {
+    min-height: 100vh;
+    max-height: 100%;
+    max-width: 100%;
+    background-image: linear-gradient(180deg, rgb(143, 132, 120), rgb(39, 38, 36));
+}

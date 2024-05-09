@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    justify-content: left; 
+    align-items: center; 
+    max-width: 100%;
+    height: 80px;
+    background-color: rgb(27, 26, 26);
+}
+
+.ulDiv {
+    width: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    min-height: 80px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Link {
+    margin-left: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    min-width: 100px;
+    color: rgb(40, 224, 40);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: ease-in 0.1s;
+}
+
+.Link:hover {
+    background-color: grey;
+    color: darkgreen;
+    transform: scale(1.5);
+}
+
+.navHome {
+    margin-top: 0;
+    margin-bottom: 30px;
+    max-height: 110px;
+}
+
+.stageDiv {
+    height: 300px;
+    width: 300px;
+    padding-top: 0;
+}
+
