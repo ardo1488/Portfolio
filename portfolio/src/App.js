@@ -1,4 +1,4 @@
-import './styles/App.css';
+import appStyles from './styles/App.module.css';
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Components/home';
 import Projects from './Components/projects';
@@ -8,7 +8,7 @@ import Contact from './Components/contact';
 function App() {
   return (
     <Router>
-    <div className="mainDiv">
+    <div className={appStyles.mainDiv}>
       <Routes>
         <Route path = '/' element={<Home />}/>
         <Route path = '/projects' element={<Projects />}/>

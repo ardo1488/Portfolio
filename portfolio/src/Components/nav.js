@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import { Stage, useGLTF, Resize } from "@react-three/drei";
 import { Canvas, useFrame } from "@react-three/fiber";
-import "../styles/nav.css";
+import navStyles from "../styles/nav.module.css";
   
     function Model(props) {
     const group = useRef();
@@ -48,9 +48,9 @@ useGLTF.preload('/nameLogo.glb')
 
 export default function Nav(){
     return (
-        <div className="navbar">
-            <div className='stageDiv'>
-                <Link className="navHome" to="/">
+        <div className={navStyles.navbar}>
+            <div className={navStyles.stageDiv}>
+                <Link className={navStyles.navHome} to="/">
                     <Canvas >
                         <Stage environment="park" contactShadowOpacity={1}>
                             <Resize  >
@@ -60,16 +60,16 @@ export default function Nav(){
                     </Canvas>
                 </Link>
             </div>                   
-            <div className="ulDiv">
+            <div className={navStyles.ulDiv}>
                 <ul>
                     <li>
-                        <Link className="Link" to="/projects">Projects</Link>
+                        <Link className={navStyles.Link} to="/projects">Projects</Link>
                     </li>
                     <li>
-                        <Link className="Link" to="/about">About</Link>
+                        <Link className={navStyles.Link} to="/about">About</Link>
                     </li>
                     <li>
-                        <Link className="Link" to="/contact">Contact</Link>
+                        <Link className={navStyles.Link} to="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>
