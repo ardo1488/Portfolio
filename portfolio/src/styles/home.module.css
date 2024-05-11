@@ -14,14 +14,15 @@
 .homeContent {
     margin-top: 100px;
     display: flex;
-    flex-flow: row;
+    flex-flow: wrap;
     align-items: center;
     justify-content: space-evenly;
+    padding-bottom: 30px;
 }
 
 .image {
     border: 2px rgb(39, 24, 4) solid;
-    border-radius: 5px;
+    border-radius:  0px 0px 50px 50px;
     height: 500px;
     max-width: 400px;
     min-width: 200px;

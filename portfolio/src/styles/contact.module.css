@@ -13,7 +13,8 @@
 
 .contactContent {
     display: flex;
-    flex-flow: column;
+    flex-flow: wrap;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 50px;
 }
@@ -38,7 +39,6 @@
         width: 50px;
         height: 50px;
         align-self: flex-start;
-        margin-left: 20px;
     }
 
     
@@ -47,6 +47,10 @@
 .contactLink {
     display: flex;
     flex-direction: row;
+
+    p{
+        font-size: 20px;
+    }
 
 }
 
@@ -63,22 +67,27 @@
     flex-direction: row;
 
     a {
+        font-size: 20px;
         text-decoration: none;
-        color: rgb(40, 224, 40);
+        color: rgb(22, 179, 22);
         margin: 0 5px;
+        font-weight: 700;
     }
     
 }
 
 .link {
     padding-top: 15px;
+    padding-left: 15px;
     display: flex;
     flex-direction: row;
 
     a {
         text-decoration: none;
-        color: rgb(40, 224, 40);
+        color: rgb(22, 179, 22);
         margin: 0 5px;
+        font-weight: 700;
+        font-size: 20px;
     }
 }
 
