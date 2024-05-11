@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import projectStyles from "../styles/projects.module.css";
 import Nav from "./nav";
 import pinchrCoin from "../Assets/PinchrCoin.png";
+import tictactoe from "../Assets/tictactoe2.png";
 import Pinchr from "./pinchr";
 import TicTacToe from "./tictactoe";
 
@@ -72,10 +73,10 @@ export default function Projects(){
                             <button className={projectStyles.projectBtn} onClick={() => handleProjectClick(1)}>Learn More</button>
                     </div>
                     <div className={projectStyles.project}>
-                        <h2>Pinchr Expense Manager</h2>
-                        <h3>Full Stack Project</h3>
+                        <h2>TicTacToe Game</h2>
+                        <h3>Front End React Project</h3>
                         <div className={projectStyles.projectPics}>
-                            <img src={pinchrCoin} alt="" />
+                            <img src={tictactoe} alt="" />
                         </div>
                             <button className={projectStyles.projectBtn} onClick={() => handleProjectClick(2)}>Learn More</button>
                     </div>

@@ -39,7 +39,7 @@ export default function Contact(){
                     <div className={contactStyles.contactLink}>
                         <img src={github} alt="github"/>
                         <div className={contactStyles.link}>
-                            <a href="https://github.com/ardo1488">Visit</a>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/ardo1488">Visit</a>
                             <p>my GitHub Page!</p>
                         </div>
                     </div>                   
@@ -49,7 +49,7 @@ export default function Contact(){
                     <div className={contactStyles.contactLink}>
                         <img src={linkedin} alt="linkedin"/>
                         <div className={contactStyles.link}>
-                                <a href="https://www.linkedin.com/in/eduardo-gaxiola-2aa595254/">Visit</a>
+                                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/eduardo-gaxiola-2aa595254/">Visit</a>
                                 <p>my LinkedIn Page!</p>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ export default function Contact(){
                     <div className={contactStyles.contactLink}>
                         <img className={contactStyles.indeed} src={indeed} alt="indeed"/>
                         <div className={contactStyles.link}>
-                                <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-notifcenter">Visit</a>
+                                <a target="_blank" rel="noreferrer" href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-notifcenter">Visit</a>
                                 <p>my Indeed Page!</p>
                         </div>
                     </div>
