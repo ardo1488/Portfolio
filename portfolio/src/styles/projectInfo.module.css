@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-flow: column;
+    flex-direction: column;
 
     h2 {
         color: black;
@@ -39,7 +39,7 @@
 
     ul {
         margin-left: 20px;
-        list-style: square;
+        list-style: inside square;
         display: flex;
         flex-flow: column;
         align-items: flex-start;

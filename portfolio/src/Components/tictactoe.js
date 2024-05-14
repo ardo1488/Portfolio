@@ -39,19 +39,20 @@ export default function TicTacToe(){
                             </ul>
                         </div>
                         <div className={projectInfoStyles.overview}>
-                        <h3>Overview</h3>
-                        <p>This is a simple React JS project that simulates a game of tictactoe game</p>
-                        <h3>Technologies Used</h3>
-                        <ul>
-                            <li>React</li>
-                            <li>GitHub for version control</li>
-                            <li>Styling was done leveraging CSS</li>
-                        </ul>
-                        <h3>Link to Website</h3>
-                        <div className={projectInfoStyles.link}>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/ardo1488/TicTacToeProject">Github Repo Link</a>
+                            <h3>Overview</h3>
+                            <p>This is a simple React JS project that simulates a game of tictactoe game</p>
+                            <h3>Technologies Used</h3>
+                            <ul>
+                                <li>React</li>
+                                <li>GitHub for version control</li>
+                                <li>Styling was done leveraging CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <h3>Link to Website</h3>
+                            <div className={projectInfoStyles.link}>
+                                <a target="_blank" rel="noreferrer" href="https://github.com/ardo1488/TicTacToeProject">Github Repo Link</a>
+                            </div>
                         </div>
-                    </div>
                     </div>
                     
                 </div>
