@@ -63,7 +63,7 @@ export default function About(){
                         for the rest of my career.
                     </p>
                     <h2>Future Projects</h2>
-                    <p>This is but only the beginning of my life-long jorney as a programmer. I am very hungry to contiue learning and working on projects on my free time and career path.</p>
+                    <p>This is but only the beginning of my life-long jorney as a programmer. I am very hungry to continue learning and working on projects on my free time and career path.</p>
                     <h3>Future projects inlcude but are not limited to:</h3>
                     <ul>
                         <li>Chess Game Project (i love chess!)</li>

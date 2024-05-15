@@ -4,7 +4,7 @@ import { Stage, useGLTF, Resize } from "@react-three/drei";
 import { Canvas, useFrame } from "@react-three/fiber";
 import navStyles from "../styles/nav.module.css";
   
-    function Model(props) {
+    function Model(props) { // displays 3D object of my name 
     const group = useRef();
     const { nodes, materials } = useGLTF('/nameLogo.glb')
 
@@ -43,14 +43,14 @@ import navStyles from "../styles/nav.module.css";
     );
 }
 
-useGLTF.preload('/nameLogo.glb')
+useGLTF.preload('/nameLogo.glb') // preload the glb file of my name logo
 
 
 export default function Nav(){
     return (
         <div className={navStyles.navbar}>
             <div className={navStyles.stageDiv}>
-                <Link className={navStyles.navHome} to="/">
+                <Link className={navStyles.navHome} to="/"> 
                     <Canvas >
                         <Stage environment="park" contactShadowOpacity={1}>
                             <Resize  >

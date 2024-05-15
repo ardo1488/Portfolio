@@ -3,12 +3,13 @@ import projectStyles from "../styles/projects.module.css";
 import Nav from "./nav";
 import pinchrCoin from "../Assets/PinchrCoin.png";
 import tictactoe from "../Assets/tictactoe2.png";
+import game4 from "../Assets/game4.png";
 import Pinchr from "./pinchr";
 import TicTacToe from "./tictactoe";
+import UnityGame from "./unitygame";
 
 
-
-function buttonProjectInfo(prop){
+function buttonProjectInfo(prop){ // takes in index of button and returns given project info component
     
     switch(prop){
         case 1:
@@ -24,7 +25,7 @@ function buttonProjectInfo(prop){
             break;
         case 3:
             return(
-                <Pinchr />
+                <UnityGame />
             )
             break;
     }
@@ -32,7 +33,7 @@ function buttonProjectInfo(prop){
 }
 export default function Projects(){
 
-    const [exitBtn, setExitBtn] = useState(null);
+    const [exitBtn, setExitBtn] = useState(null); //make exitBtn appear only when project info is displayed
 
     // this variable holds the exit button that will be displayed when a project's component is displayed
     const exitInfoButton = (
@@ -41,11 +42,11 @@ export default function Projects(){
 
     // handles click and  calls buttonProjectInfo fucntion with button index
     const handleProjectClick = (projectNumber) => {
-        const info = buttonProjectInfo(projectNumber);
+        const info = buttonProjectInfo(projectNumber); // gets project info component for given index
         switch (projectNumber) {
             case 1:
-                setDisplayDiv(info);
-                setExitBtn(exitInfoButton);
+                setDisplayDiv(info); // sets new component to display
+                setExitBtn(exitInfoButton); //activates exit button
                 break;
             case 2:
                 setDisplayDiv(info);
@@ -81,10 +82,10 @@ export default function Projects(){
                             <button className={projectStyles.projectBtn} onClick={() => handleProjectClick(2)}>Learn More</button>
                     </div>
                     <div className={projectStyles.project}>
-                        <h2>Pinchr Expense Manager</h2>
-                        <h3>Full Stack Project</h3>
+                        <h2>Unity 2D Pixel Game</h2>
+                        <h3>Unity Game Engine C# Project</h3>
                         <div className={projectStyles.projectPics}>
-                            <img src={pinchrCoin} alt="" />
+                            <img src={game4} alt="" />
                         </div>
                             <button className={projectStyles.projectBtn} onClick={() => handleProjectClick(3)}>Learn More</button>
                     </div>
